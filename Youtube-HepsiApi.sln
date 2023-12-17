@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{55052069-405B-4E8F-89B4-5D1E6E3C0E04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D70DF0E8-92FF-4A18-BAC0-2404EFE2A541}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3FC0775D-D58D-49B1-828D-6D441BE72BDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Application", "Core\YoutubeApi.Application\YoutubeApi.Application.csproj", "{ECA2B411-AC56-4BF9-B467-D31F01EA9CAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Domain", "Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj", "{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Infrastructure", "İnfrastractructure\YoutubeApi.Infrastructure\YoutubeApi.Infrastructure.csproj", "{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA2B411-AC56-4BF9-B467-D31F01EA9CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA2B411-AC56-4BF9-B467-D31F01EA9CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA2B411-AC56-4BF9-B467-D31F01EA9CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA2B411-AC56-4BF9-B467-D31F01EA9CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECA2B411-AC56-4BF9-B467-D31F01EA9CAB} = {55052069-405B-4E8F-89B4-5D1E6E3C0E04}
+		{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE} = {55052069-405B-4E8F-89B4-5D1E6E3C0E04}
+		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452} = {3FC0775D-D58D-49B1-828D-6D441BE72BDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C7C3A98-E1E6-43B6-B47D-79C510391036}
+	EndGlobalSection
+EndGlobal
