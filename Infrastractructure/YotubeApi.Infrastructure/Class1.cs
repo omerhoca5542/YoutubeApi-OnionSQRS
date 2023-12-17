@@ -1,4 +1,4 @@
-﻿namespace YoutubeApi.Infrastructure
+﻿namespace YotubeApi.Infrastructure
 {
     public class Class1
     {
