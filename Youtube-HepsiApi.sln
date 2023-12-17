@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Application", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Domain", "Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj", "{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Infrastructure", "İnfrastractructure\YoutubeApi.Infrastructure\YoutubeApi.Infrastructure.csproj", "{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YotubeApi.Infrastructure", "Infrastractructure\YotubeApi.Infrastructure\YotubeApi.Infrastructure.csproj", "{C5EADE7C-94A1-4CBD-A9AD-ED584CB735CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YotubeApi.Persistence", "Infrastractructure\YotubeApi.Persistence\YotubeApi.Persistence.csproj", "{C5BB6659-B186-4C3B-9D7A-BF3948C05F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YotubeApi.Api", "Presentatiton\YotubeApi.Api\YotubeApi.Api.csproj", "{D5708E71-975D-4006-A68E-A44F14FA19AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +33,18 @@ Global
 		{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EADE7C-94A1-4CBD-A9AD-ED584CB735CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EADE7C-94A1-4CBD-A9AD-ED584CB735CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EADE7C-94A1-4CBD-A9AD-ED584CB735CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EADE7C-94A1-4CBD-A9AD-ED584CB735CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5BB6659-B186-4C3B-9D7A-BF3948C05F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BB6659-B186-4C3B-9D7A-BF3948C05F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BB6659-B186-4C3B-9D7A-BF3948C05F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BB6659-B186-4C3B-9D7A-BF3948C05F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5708E71-975D-4006-A68E-A44F14FA19AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5708E71-975D-4006-A68E-A44F14FA19AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5708E71-975D-4006-A68E-A44F14FA19AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5708E71-975D-4006-A68E-A44F14FA19AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,7 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ECA2B411-AC56-4BF9-B467-D31F01EA9CAB} = {55052069-405B-4E8F-89B4-5D1E6E3C0E04}
 		{DE6AAA69-DBC8-4BB1-BED9-56ABE0FE99CE} = {55052069-405B-4E8F-89B4-5D1E6E3C0E04}
-		{8E3351FD-FDE6-40D9-A6D2-BC6D9EC6D452} = {3FC0775D-D58D-49B1-828D-6D441BE72BDD}
+		{C5EADE7C-94A1-4CBD-A9AD-ED584CB735CD} = {3FC0775D-D58D-49B1-828D-6D441BE72BDD}
+		{C5BB6659-B186-4C3B-9D7A-BF3948C05F90} = {3FC0775D-D58D-49B1-828D-6D441BE72BDD}
+		{D5708E71-975D-4006-A68E-A44F14FA19AC} = {D70DF0E8-92FF-4A18-BAC0-2404EFE2A541}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C7C3A98-E1E6-43B6-B47D-79C510391036}
