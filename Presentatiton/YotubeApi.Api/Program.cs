@@ -7,7 +7,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+    var env = builder.Environment;// burdan bu ayarý yaptýðýmýzda environmet yani ortam olarak launc settings teki devolopment ya da production ortamlarýndan hangisi seçildiyse orda iþlem yapýlacak
+builder.Configuration.SetBasePath(env.ContentRootPath)// burda dosyalarýn yolu tutuluyor böylece ister local ister internet sunucu ortamýnda çalýþalým sonuç olarak bu yolu güncelleyecektir
+    .AddJsonFile("appsettings.json", optional: false)
+    // her türlü bu appsettings.json dosyasýna baþvuracak
+    .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
+var app = builder.Build(); 
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
