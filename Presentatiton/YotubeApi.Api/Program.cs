@@ -1,3 +1,4 @@
+using YotubeApi.Persistence;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,6 +13,7 @@ builder.Configuration.SetBasePath(env.ContentRootPath)// burda dosyalarýn yolu t
     .AddJsonFile("appsettings.json", optional: false)
     // her türlü bu appsettings.json dosyasýna baþvuracak
     .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
+builder.Services.AddPersistence(builder.Configuration);// YotubeApi.Persistence katmanýnýn çalýþmasý için bu düzenlemeyi yaptýk. en üstte de  using YotubeApi.Persistence;ile  AddPersistence metodunun çalýþmasýný saðladýk
 var app = builder.Build(); 
 
 // Configure the HTTP request pipeline.
